@@ -1,0 +1,33 @@
+# ============================================================
+# LEGAL: ROMs and extracted game assets must NEVER be committed
+# ============================================================
+local_data/
+*.nds
+*.srl
+*.sav
+*.dsv
+
+# Extracted/unpacked ROM contents and intermediate assets
+analysis/
+*.narc
+*.carc
+*.sdat
+*.bin.extracted/
+
+# Patched ROM outputs (release/ may only contain .xdelta/.bps + checksums)
+release/*.nds
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

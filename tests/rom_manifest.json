@@ -1,0 +1,55 @@
+{
+  "note": "SHA-256 checksums only. No copyrighted content is stored here.",
+  "roms": [
+    {
+      "role": "korean_heartgold_clean",
+      "description": "Pokemon HeartGold (Korea) - clean dump, base for Visual+ 1.0.0",
+      "game_code": "IPKK",
+      "sha256": "659f20ca1d4f43b8b675d3c47217bb875a4f14c62438b08fa42f60467e2bed43",
+      "required": true
+    },
+    {
+      "role": "korean_soulsilver_clean",
+      "description": "Pokemon SoulSilver (Korea) - clean dump",
+      "game_code": "IPGK",
+      "sha256": "8e1c82d2f718fa404f0b13df1666c70cdfaa75cb67e0adcbdcfb6c002f4d8b55",
+      "required": false
+    },
+    {
+      "role": "usa_heartgold_clean",
+      "description": "Pokemon HeartGold (USA) - clean dump, port target",
+      "game_code": "IPKE",
+      "sha256": "65f02a56842b75aa92d775d56d657a56fe3fa993550b04dc20704ab82d760105",
+      "required": true
+    },
+    {
+      "role": "usa_soulsilver_clean",
+      "description": "Pokemon SoulSilver (USA) - clean dump, port target",
+      "game_code": "IPGE",
+      "sha256": "51d0f94a16af7d77c067b4cb7d821ba890a13203a2e2c76049623332c0582e20",
+      "required": false
+    }
+  ],
+  "patches": [
+    {
+      "role": "visual_plus_hg_kor_1.0.0",
+      "file": "하트골드_비주얼+_1.0.0.xdelta",
+      "sha256": "3fb25805d51c1618845a9d2a275ff313175cc3b4e39f327bf65cc957a2011a46"
+    },
+    {
+      "role": "visual_plus_hg_kor_nocam_1.0.0",
+      "file": "하트골드_비주얼+_카메라패치없이_1.0.0.xdelta",
+      "sha256": "0b01d13ec6712a2c27a8fbc9ef4f81af9503d5846fb73f266d6530dba241dd7d"
+    },
+    {
+      "role": "visual_plus_platinum_kor_1.0.0",
+      "file": "기라티나_비주얼+_1.0.0.xdelta",
+      "sha256": "c0e578de3d041842642c2f5eefe9c8458b95b9a8aa5115a857f7e80dce7dd580"
+    },
+    {
+      "role": "visual_plus_platinum_kor_nocam_1.0.0",
+      "file": "기라티나_비주얼+_카메라패치없이_1.0.0.xdelta",
+      "sha256": "26d52b3d91761c395d9329b79abd14fbaf7498c3c538897c43b90f97726d84ac"
+    }
+  ]
+}
