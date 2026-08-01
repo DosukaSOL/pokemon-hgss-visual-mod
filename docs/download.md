@@ -1,7 +1,11 @@
 # Download
 
+> All battle background artwork in these patches was created by **Young**
+> (*Pokémon Another Red*); the original Visual+ mod is by **민트초크 (MinT
+> ChoK)**. Full credits [here](credits.md).
+
 Patches are distributed on the
-[GitHub Releases page](https://github.com/OWNER/pokemon-hgss-visual-mod/releases).
+[GitHub Releases page](https://github.com/DosukaSOL/pokemon-hgss-visual-mod/releases).
 Each patch applies to a **clean English (USA) ROM** — verify yours against the
 checksums in the [Compatibility Matrix](compatibility.md) first.
 

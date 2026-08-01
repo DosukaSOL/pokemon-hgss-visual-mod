@@ -9,6 +9,7 @@ xdelta patches only.
 ## What Visual+ changes
 
 1. **New battle backgrounds** — redrawn, more vivid battle background images
+   — **artwork by Young** (creator of the fan game *Pokémon Another Red*)
 2. **Enhanced 3D camera** — a more dramatic overworld camera angle
 3. **Faster HP bar** — HP drains ~7–8× faster in battle
 

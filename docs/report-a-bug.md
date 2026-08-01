@@ -1,7 +1,7 @@
 # Report a Bug
 
 Please open an issue on the
-[GitHub issue tracker](https://github.com/OWNER/pokemon-hgss-visual-mod/issues)
+[GitHub issue tracker](https://github.com/DosukaSOL/pokemon-hgss-visual-mod/issues)
 with the following information:
 
 ## Required info

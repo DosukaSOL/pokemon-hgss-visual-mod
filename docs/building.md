@@ -19,7 +19,7 @@ ever committed.
 ## Setup
 
 ```bash
-git clone https://github.com/OWNER/pokemon-hgss-visual-mod
+git clone https://github.com/DosukaSOL/pokemon-hgss-visual-mod
 cd pokemon-hgss-visual-mod
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
