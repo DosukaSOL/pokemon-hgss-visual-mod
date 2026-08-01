@@ -34,6 +34,7 @@ from pathlib import Path
 
 import ndspy.code
 import ndspy.codeCompression as cc
+import ndspy.lz10
 import ndspy.narc
 import ndspy.rom
 
@@ -47,6 +48,15 @@ RELEASE = REPO_ROOT / "release"
 VISUAL_PLUS_VERSION = "1.0.0"
 
 NARC_PATHS = ("a/0/0/7", "a/0/0/8", "a/2/6/2")
+
+# English credit drawn on the boot copyright screen (gs_opening = a/2/6/2;
+# NCGR subfile 4 + NSCR subfile 14, both LZ10 — shared by HG and SS)
+CREDIT_TEXT = "English Patch By Dosuka"
+CREDIT_NARC = "a/2/6/2"
+CREDIT_NCGR_IDX = 4
+CREDIT_NSCR_IDX = 14
+CREDIT_ROW_TY = 21          # empty tilemap rows 20-23, y=168px on screen
+CREDIT_COLOR_INDEX = 15     # same greyscale index the existing credits use
 
 # arm9 layout facts established in analysis/ (see hg_kor_full_deep.json)
 CAVE_OFFSET = 0x300
@@ -110,6 +120,48 @@ def check(cond: bool, msg: str) -> None:
 
 
 # ---------------------------------------------------------------- extraction
+
+def add_english_credit(comp: dict) -> None:
+    """Draw CREDIT_TEXT under the Korean mod's credits on the boot screen."""
+    from PIL import Image, ImageDraw, ImageFont
+
+    from nitro2d import NCGR, NSCR
+
+    edits = comp["narc_edits"][CREDIT_NARC]
+    check(CREDIT_NCGR_IDX in edits and CREDIT_NSCR_IDX in edits,
+          "boot-screen subfiles not among Visual+ edits")
+    g = NCGR(edits[CREDIT_NCGR_IDX]["data"])
+    s = NSCR(edits[CREDIT_NSCR_IDX]["data"])
+
+    img = Image.new("1", (256, 16), 0)
+    draw = ImageDraw.Draw(img)
+    font = ImageFont.load_default()
+    x0, y0, x1, y1 = draw.textbbox((0, 0), CREDIT_TEXT, font=font)
+    draw.text((((256 - (x1 - x0)) // 2) - x0, 2 - y0), CREDIT_TEXT,
+              fill=1, font=font)
+
+    px = img.load()
+    tiles, mapping = [], []
+    for ty in range(2):
+        for tx in range(32):
+            pixels = [0] * 64
+            used = False
+            for py in range(8):
+                for pxx in range(8):
+                    if px[tx * 8 + pxx, ty * 8 + py]:
+                        pixels[py * 8 + pxx] = CREDIT_COLOR_INDEX
+                        used = True
+            if used:
+                mapping.append((tx, CREDIT_ROW_TY + ty, len(tiles)))
+                tiles.append(pixels)
+    check(bool(tiles), "credit text rendered no pixels")
+    first = g.append_tiles(tiles)
+    for tx, ty, k in mapping:
+        check(s.entry(tx, ty)[0] == 0, f"credit target tile ({tx},{ty}) busy")
+        s.set_entry(tx, ty, first + k)
+    edits[CREDIT_NCGR_IDX]["data"] = ndspy.lz10.compress(g.save())
+    edits[CREDIT_NSCR_IDX]["data"] = ndspy.lz10.compress(s.save())
+
 
 def extract_components(kor_clean: ndspy.rom.NintendoDSRom,
                        kor_mod: ndspy.rom.NintendoDSRom) -> dict:
@@ -179,6 +231,8 @@ def extract_components(kor_clean: ndspy.rom.NintendoDSRom,
         t = pos + site["target_at"]
         check(k12[t:t + len(site["clean"])] == site["clean"], "KOR HP clean bytes")
         check(m12[t:t + len(site["mod"])] == site["mod"], "KOR HP mod bytes")
+
+    add_english_credit(comp)
     return comp
 
 

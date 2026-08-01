@@ -25,7 +25,7 @@ SHA-256 `65f02a56842b75aa92d775d56d657a56fe3fa993550b04dc20704ab82d760105`
 
 | Platform | visual-only | safe | full | conservative-camera |
 |---|---|---|---|---|
-| melonDS (desktop) | 🟡 untested | 🟡 untested | 🟡 untested | 🟡 untested |
+| melonDS (desktop) | 🟡 untested | 🟡 untested | ✅ boots, intro OK | 🟡 untested |
 | melonDS (Android / AYN Thor) | 🟡 untested | 🟡 untested | 🟡 untested | 🟡 untested |
 | DeSmuME | 🟡 untested | 🟡 untested | 🟡 untested | 🟡 untested |
 | DraStic | 🟡 untested | 🟡 untested | 🟡 untested | 🟡 untested |

@@ -5,65 +5,65 @@
       "game": "heartgold",
       "variant": "visual-only",
       "patch": "release/heartgold/heartgold-english-visual-plus-visual-only-1.0.0.xdelta",
-      "patch_sha256": "e3f28caffe3af2b4f8a59ef1e5748149c5b8253dd0d414c6354737a04669996e",
+      "patch_sha256": "189d698cae5da73ed9b4ae42f35b3a281166c72a3603ac5c82ba2e5201b3b7cd",
       "source_rom_sha256": "65f02a56842b75aa92d775d56d657a56fe3fa993550b04dc20704ab82d760105",
-      "patched_rom_sha256": "ad2afac2eea9251641f37cc2736fe3a36f76b0cd1fc17b2f601938f00b664218"
+      "patched_rom_sha256": "6e67832ea6d0800c21a887063af2aa26d227c23899050e7f09f42c9063093c47"
     },
     {
       "game": "heartgold",
       "variant": "safe",
       "patch": "release/heartgold/heartgold-english-visual-plus-safe-1.0.0.xdelta",
-      "patch_sha256": "c781dbea899cffa2bb0c6c45eba7d03c0e35bcc59755cfab6822c4d8f4e3800b",
+      "patch_sha256": "3fe8ed39120a48cf12404505ddaf0fe0665806527cecc05f5d58476296136667",
       "source_rom_sha256": "65f02a56842b75aa92d775d56d657a56fe3fa993550b04dc20704ab82d760105",
-      "patched_rom_sha256": "4d9219bee5bf0653f9a0e62e17cab29a5b67f2d6f6372ae629f0d508492d73eb"
+      "patched_rom_sha256": "4ea4e2a419bc9a190ada3d5a7e60e70a45347162f252043b5cef235dea5cacbd"
     },
     {
       "game": "heartgold",
       "variant": "full",
       "patch": "release/heartgold/heartgold-english-visual-plus-full-1.0.0.xdelta",
-      "patch_sha256": "78efea3d537f4f9677d5b001564783d969b91d5e26bd650868bef7828d3fd274",
+      "patch_sha256": "2e20069836f450d536a6d589ed62928ab5f5f5a8d914f89a4af3845717285137",
       "source_rom_sha256": "65f02a56842b75aa92d775d56d657a56fe3fa993550b04dc20704ab82d760105",
-      "patched_rom_sha256": "e3c7f87f48c3cae714dcc01bd3791b1bc69f08ab2933396674379a0e7c8fb8ae"
+      "patched_rom_sha256": "eb0aaed35ba445f26a3fdfdc00c86ab8e1abac72b2191984f57290b383fb8379"
     },
     {
       "game": "heartgold",
       "variant": "conservative-camera",
       "patch": "release/heartgold/heartgold-english-visual-plus-conservative-camera-1.0.0.xdelta",
-      "patch_sha256": "2c52928390ce38a07144aa25e34fe61696628c1310db0c2825d67cbe56ee4179",
+      "patch_sha256": "0017e8dfe8d0c309a6d8a1fc2166bab552db03d33528265c79d323e29a9db41a",
       "source_rom_sha256": "65f02a56842b75aa92d775d56d657a56fe3fa993550b04dc20704ab82d760105",
-      "patched_rom_sha256": "de15acca3b941dee121c7b4345fa39f3e3a83e959a37d6787e8168dfe4afd88b"
+      "patched_rom_sha256": "69606a89c8d3eeada76d4bb79bb4b5641cbc59743473434c38511cef9309718b"
     },
     {
       "game": "soulsilver",
       "variant": "visual-only",
       "patch": "release/soulsilver/soulsilver-english-visual-plus-visual-only-1.0.0.xdelta",
-      "patch_sha256": "5c0d269c3dac521c5228fcf3138b40a89f9f37d83bdcfcbf448d50cdd905e343",
+      "patch_sha256": "b324d4bf1992964b27c6387b311dd234cf93e59fe016fdacaa9cdf6ec8e3a1f0",
       "source_rom_sha256": "51d0f94a16af7d77c067b4cb7d821ba890a13203a2e2c76049623332c0582e20",
-      "patched_rom_sha256": "01a6ce42f035180a63839c96fa7af9f7810be3abe929b2aaeccba5cd00d89c70"
+      "patched_rom_sha256": "001287c2cd253bd15a1e78dd227d350acdfec4d60af4648df4ba75cbe486d378"
     },
     {
       "game": "soulsilver",
       "variant": "safe",
       "patch": "release/soulsilver/soulsilver-english-visual-plus-safe-1.0.0.xdelta",
-      "patch_sha256": "d0882d334690a97dd90a4effbb1b046f5c6d5bc1f6d5a5a313d643a411487674",
+      "patch_sha256": "628074e816a3871987e7c09eae811a5e954f7b301469fe82cf9608c914e80921",
       "source_rom_sha256": "51d0f94a16af7d77c067b4cb7d821ba890a13203a2e2c76049623332c0582e20",
-      "patched_rom_sha256": "403e04a10a2e60f45b5ab43519201ca36e3422d7eb156a210c60b3b76ffee0fd"
+      "patched_rom_sha256": "6b5f5fc8d2fd50918269389609da4da6351731691ee97d6c45cbcfba8bcfbb82"
     },
     {
       "game": "soulsilver",
       "variant": "full",
       "patch": "release/soulsilver/soulsilver-english-visual-plus-full-1.0.0.xdelta",
-      "patch_sha256": "3c3827d031f4d70630619bc6d4c3907be3021dbf369566d608010214dc7ae3d1",
+      "patch_sha256": "6b161437bdc24c173c0a8ea70f1de5e7d694a12fb6aef1bf01c57798ad443ab1",
       "source_rom_sha256": "51d0f94a16af7d77c067b4cb7d821ba890a13203a2e2c76049623332c0582e20",
-      "patched_rom_sha256": "94c9162242aaf809df18c6fcf7e5d263ce735275847dbce9bb42b94d5813b4a2"
+      "patched_rom_sha256": "5b3a377d20b2aa45fa1b9e6fbab842aaddc75e4fef38c38624662c9f5e48bf8e"
     },
     {
       "game": "soulsilver",
       "variant": "conservative-camera",
       "patch": "release/soulsilver/soulsilver-english-visual-plus-conservative-camera-1.0.0.xdelta",
-      "patch_sha256": "51dc4473e40789b8b3f676c3ce5dba1f831fe5253c079e7ab8b81b861833fa2f",
+      "patch_sha256": "38d003b89b886d6154cecf15835dcbe16bd1d60336346768cc11ab035cb4c25b",
       "source_rom_sha256": "51d0f94a16af7d77c067b4cb7d821ba890a13203a2e2c76049623332c0582e20",
-      "patched_rom_sha256": "9b93cf2d85b5d56577f346035145698f0a6259aa6fd0bc7334afdb82d8e0fad5"
+      "patched_rom_sha256": "46083603366766d2489ab81d71a62ccf15ad093196aca1943f9e2cc7edc29841"
     }
   ]
 }

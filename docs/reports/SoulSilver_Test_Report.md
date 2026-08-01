@@ -11,10 +11,10 @@ builds — no results were reused from the other game.
 
 | Variant | Patch | Patch SHA-256 | Patched ROM SHA-256 |
 |---|---|---|---|
-| visual-only | `soulsilver-english-visual-plus-visual-only-1.0.0.xdelta` | `5c0d269c3dac521c…` | `01a6ce42f035180a…` |
-| safe | `soulsilver-english-visual-plus-safe-1.0.0.xdelta` | `d0882d334690a97d…` | `403e04a10a2e60f4…` |
-| full | `soulsilver-english-visual-plus-full-1.0.0.xdelta` | `3c3827d031f4d706…` | `94c9162242aaf809…` |
-| conservative-camera | `soulsilver-english-visual-plus-conservative-camera-1.0.0.xdelta` | `51dc4473e40789b8…` | `9b93cf2d85b5d565…` |
+| visual-only | `soulsilver-english-visual-plus-visual-only-1.0.0.xdelta` | `b324d4bf1992964b…` | `001287c2cd253bd1…` |
+| safe | `soulsilver-english-visual-plus-safe-1.0.0.xdelta` | `628074e816a38719…` | `6b5f5fc8d2fd5091…` |
+| full | `soulsilver-english-visual-plus-full-1.0.0.xdelta` | `6b161437bdc24c17…` | `5b3a377d20b2aa45…` |
+| conservative-camera | `soulsilver-english-visual-plus-conservative-camera-1.0.0.xdelta` | `38d003b89b886d61…` | `46083603366766d2…` |
 
 Source ROM (clean, user-supplied): SHA-256 `51d0f94a16af7d77c067b4cb7d821ba890a13203a2e2c76049623332c0582e20`
 
@@ -22,7 +22,7 @@ Source ROM (clean, user-supplied): SHA-256 `51d0f94a16af7d77c067b4cb7d821ba890a1
 
 | Variant | Check | Status | Detail |
 |---|---|---|---|
-| visual-only | patch round-trip | ✅ PASS | sha256 01a6ce42f035… |
+| visual-only | patch round-trip | ✅ PASS | sha256 001287c2cd25… |
 | visual-only | game code unchanged | ✅ PASS | IPGE |
 | visual-only | title unchanged | ✅ PASS |  |
 | visual-only | banner unchanged | ✅ PASS |  |
@@ -39,7 +39,7 @@ Source ROM (clean, user-supplied): SHA-256 `51d0f94a16af7d77c067b4cb7d821ba890a1
 | visual-only | a/0/0/8 subfiles | ✅ PASS | 45 replaced, rest untouched |
 | visual-only | a/2/6/2 subfiles | ✅ PASS | 2 replaced, rest untouched |
 | visual-only | isolation sweep (all other files) | ✅ PASS | 513/513 identical |
-| safe | patch round-trip | ✅ PASS | sha256 403e04a10a2e… |
+| safe | patch round-trip | ✅ PASS | sha256 6b5f5fc8d2fd… |
 | safe | game code unchanged | ✅ PASS | IPGE |
 | safe | title unchanged | ✅ PASS |  |
 | safe | banner unchanged | ✅ PASS |  |
@@ -56,7 +56,7 @@ Source ROM (clean, user-supplied): SHA-256 `51d0f94a16af7d77c067b4cb7d821ba890a1
 | safe | a/0/0/8 subfiles | ✅ PASS | 45 replaced, rest untouched |
 | safe | a/2/6/2 subfiles | ✅ PASS | 2 replaced, rest untouched |
 | safe | isolation sweep (all other files) | ✅ PASS | 513/513 identical |
-| full | patch round-trip | ✅ PASS | sha256 94c9162242aa… |
+| full | patch round-trip | ✅ PASS | sha256 5b3a377d20b2… |
 | full | game code unchanged | ✅ PASS | IPGE |
 | full | title unchanged | ✅ PASS |  |
 | full | banner unchanged | ✅ PASS |  |
@@ -73,7 +73,7 @@ Source ROM (clean, user-supplied): SHA-256 `51d0f94a16af7d77c067b4cb7d821ba890a1
 | full | a/0/0/8 subfiles | ✅ PASS | 45 replaced, rest untouched |
 | full | a/2/6/2 subfiles | ✅ PASS | 2 replaced, rest untouched |
 | full | isolation sweep (all other files) | ✅ PASS | 513/513 identical |
-| conservative-camera | patch round-trip | ✅ PASS | sha256 9b93cf2d85b5… |
+| conservative-camera | patch round-trip | ✅ PASS | sha256 460836033667… |
 | conservative-camera | game code unchanged | ✅ PASS | IPGE |
 | conservative-camera | title unchanged | ✅ PASS |  |
 | conservative-camera | banner unchanged | ✅ PASS |  |

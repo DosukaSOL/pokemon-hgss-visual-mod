@@ -27,10 +27,10 @@ Requires: clean *Pokémon HeartGold Version (USA)* ROM
 
 | File | Variant | Patch SHA-256 |
 |---|---|---|
-| `heartgold-english-visual-plus-visual-only-1.0.0.xdelta` | Visual Only | `e3f28caffe3af2b4…` |
-| `heartgold-english-visual-plus-safe-1.0.0.xdelta` | Safe | `c781dbea899cffa2…` |
-| `heartgold-english-visual-plus-full-1.0.0.xdelta` | Full | `78efea3d537f4f96…` |
-| `heartgold-english-visual-plus-conservative-camera-1.0.0.xdelta` | Conservative Camera | `2c52928390ce38a0…` |
+| `heartgold-english-visual-plus-visual-only-1.0.0.xdelta` | Visual Only | `189d698cae5da73e…` |
+| `heartgold-english-visual-plus-safe-1.0.0.xdelta` | Safe | `3fe8ed39120a48cf…` |
+| `heartgold-english-visual-plus-full-1.0.0.xdelta` | Full | `2e20069836f450d5…` |
+| `heartgold-english-visual-plus-conservative-camera-1.0.0.xdelta` | Conservative Camera | `0017e8dfe8d0c309…` |
 
 Patched ROM checksums: see the
 [HeartGold Test Report](reports/HeartGold_Test_Report.md).
@@ -44,10 +44,10 @@ Requires: clean *Pokémon SoulSilver Version (USA)* ROM
 
 | File | Variant | Patch SHA-256 |
 |---|---|---|
-| `soulsilver-english-visual-plus-visual-only-1.0.0.xdelta` | Visual Only | `5c0d269c3dac521c…` |
-| `soulsilver-english-visual-plus-safe-1.0.0.xdelta` | Safe | `d0882d334690a97d…` |
-| `soulsilver-english-visual-plus-full-1.0.0.xdelta` | Full | `3c3827d031f4d706…` |
-| `soulsilver-english-visual-plus-conservative-camera-1.0.0.xdelta` | Conservative Camera | `51dc4473e40789b8…` |
+| `soulsilver-english-visual-plus-visual-only-1.0.0.xdelta` | Visual Only | `b324d4bf1992964b…` |
+| `soulsilver-english-visual-plus-safe-1.0.0.xdelta` | Safe | `628074e816a38719…` |
+| `soulsilver-english-visual-plus-full-1.0.0.xdelta` | Full | `6b161437bdc24c17…` |
+| `soulsilver-english-visual-plus-conservative-camera-1.0.0.xdelta` | Conservative Camera | `38d003b89b886d61…` |
 
 Patched ROM checksums: see the
 [SoulSilver Test Report](reports/SoulSilver_Test_Report.md).

@@ -13,6 +13,8 @@ HeartGold, by MinT ChoK).
   version)
 - New `conservative-camera` variant (50 % camera strength), not present
   upstream
+- **"English Patch By Dosuka"** credit line on the boot copyright screen,
+  beneath the original mod credits (all variants, both games)
 - Automated build + validation pipeline (`scripts/`), per-game test reports
   and compatibility matrices
 
